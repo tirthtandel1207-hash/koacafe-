@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your café with a stunning, mobile-friendly one-page website featuring an interactive menu, engaging story, and easy navigation for visitors.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
