@@ -1,0 +1,203 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - link "Koa Café home" [ref=f1e5] [cursor=pointer]:
+      - /url: "#home"
+      - generic [ref=f1e6]: K
+      - generic [ref=f1e7]: Koa Café
+    - navigation "Primary navigation" [ref=f1e8]:
+      - link "Home" [ref=f1e9] [cursor=pointer]:
+        - /url: "#home"
+      - link "Menu" [ref=f1e10] [cursor=pointer]:
+        - /url: "#menu"
+      - link "Story" [ref=f1e11] [cursor=pointer]:
+        - /url: "#story"
+      - link "Visit us" [ref=f1e12] [cursor=pointer]:
+        - /url: "#visit"
+    - link "Find a table" [ref=f1e13] [cursor=pointer]:
+      - /url: "#visit"
+  - main [ref=f1e16]:
+    - region [ref=f1e17]:
+      - img "Koa Café interior with hanging chairs, plants, books, and sculptural lighting" [ref=f1e18]
+      - generic [ref=f1e20]:
+        - paragraph [ref=f1e21]: Coffee · Conversation · Calm
+        - heading "A slower kind of morning." [level=1] [ref=f1e22]: A slower kindof morning.
+        - paragraph [ref=f1e23]: Thoughtful coffee, seasonal plates, and a room made for lingering. Your everyday ritual, poured with care.
+        - generic [ref=f1e24]:
+          - link "Explore menu" [ref=f1e25] [cursor=pointer]:
+            - /url: "#menu"
+          - link "Get directions" [ref=f1e28] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Koa+Cafe
+      - paragraph [ref=f1e29]: A space to pause, sip & stay
+    - region [ref=f1e30]:
+      - generic [ref=f1e31]:
+        - generic [ref=f1e32]:
+          - paragraph [ref=f1e33]: Koa Café
+          - heading "The menu" [level=2] [ref=f1e34]
+        - paragraph [ref=f1e35]: ₹800 for two
+      - group "Filter menu by category" [ref=f1e36]:
+        - button "Hot Coffee" [pressed] [ref=f1e37] [cursor=pointer]
+        - button "Iced Coffee" [ref=f1e38] [cursor=pointer]
+        - button "Cold Brew" [ref=f1e39] [cursor=pointer]
+        - button "Manual Brewing" [ref=f1e40] [cursor=pointer]
+        - button "Signature Drinks" [ref=f1e41] [cursor=pointer]
+        - button "Zero Sugar Drinks" [ref=f1e42] [cursor=pointer]
+        - button "Classic Shakes" [ref=f1e43] [cursor=pointer]
+      - generic [ref=f1e44]:
+        - generic [ref=f1e45]:
+          - paragraph [ref=f1e46]: Currently viewing
+          - heading "Hot Coffee" [level=3] [ref=f1e47]
+          - paragraph [ref=f1e48]: Available in Regular Milk / Oat Milk
+        - generic [ref=f1e49]:
+          - article [ref=f1e50]:
+            - generic [ref=f1e51]:
+              - heading "Espresso" [level=4] [ref=f1e52]
+              - paragraph [ref=f1e53]: Intense, richly concentrated coffee shot; a pure flavor burst
+            - paragraph [ref=f1e54]: Regular ₹110 · Large —
+          - article [ref=f1e55]:
+            - generic [ref=f1e56]:
+              - heading "Double Espresso" [level=4] [ref=f1e57]
+              - paragraph [ref=f1e58]: Double the pleasure with a robust, velvety coffee experience
+            - paragraph [ref=f1e59]: Regular ₹130 · Large —
+          - article [ref=f1e60]:
+            - generic [ref=f1e61]:
+              - heading "Americano" [level=4] [ref=f1e62]
+              - paragraph [ref=f1e63]: Espresso with hot water; bold, smooth and rich
+            - paragraph [ref=f1e64]: Regular ₹140 · Large —
+          - article [ref=f1e65]:
+            - generic [ref=f1e66]:
+              - heading "Cappuccino" [level=4] [ref=f1e67]
+              - paragraph [ref=f1e68]: Espresso with frothy milk, a dusting of cocoa; creamy delight
+            - paragraph [ref=f1e69]: Regular ₹140 · Large ₹160
+          - article [ref=f1e70]:
+            - generic [ref=f1e71]:
+              - heading "Flat White" [level=4] [ref=f1e72]
+              - paragraph [ref=f1e73]: Espresso with microfoam milk; silky, velvety indulgence
+            - paragraph [ref=f1e74]: Regular ₹140 · Large —
+          - article [ref=f1e75]:
+            - generic [ref=f1e76]:
+              - heading "Cafe Latte" [level=4] [ref=f1e77]
+              - paragraph [ref=f1e78]: A creamy blend of espresso and steamed milk, a comforting classic
+            - paragraph [ref=f1e79]: Regular ₹150 · Large ₹170
+          - article [ref=f1e80]:
+            - generic [ref=f1e81]:
+              - heading "Marocchino" [level=4] [ref=f1e82]
+              - paragraph [ref=f1e83]: Espresso, frothed milk, cocoa powder; an Italian marvel
+            - paragraph [ref=f1e84]: Regular ₹150 · Large —
+          - article [ref=f1e85]:
+            - generic [ref=f1e86]:
+              - heading "Cortado" [level=4] [ref=f1e87]
+              - paragraph [ref=f1e88]: Equal parts espresso and warm milk; perfectly balanced
+            - paragraph [ref=f1e89]: Regular ₹150 · Large —
+          - article [ref=f1e90]:
+            - generic [ref=f1e91]:
+              - heading "Macchiato" [level=4] [ref=f1e92]
+              - paragraph [ref=f1e93]: Espresso marked with a spoonful of foam; simple perfection
+            - paragraph [ref=f1e94]: Regular ₹150 · Large —
+          - article [ref=f1e95]:
+            - generic [ref=f1e96]:
+              - heading "Spiced Vanilla Latte" [level=4] [ref=f1e97]
+              - paragraph [ref=f1e98]: Espresso, vanilla, spices, steamed milk; a cozy, aromatic treat
+            - paragraph [ref=f1e99]: Regular ₹160 · Large ₹180
+          - article [ref=f1e100]:
+            - generic [ref=f1e101]:
+              - heading "Hazelnut Latte" [level=4] [ref=f1e102]
+              - paragraph [ref=f1e103]: Espresso, hazelnut, steamed milk; nutty, sweet charm
+            - paragraph [ref=f1e104]: Regular ₹160 · Large ₹180
+          - article [ref=f1e105]:
+            - generic [ref=f1e106]:
+              - heading "Caramel Latte" [level=4] [ref=f1e107]
+              - paragraph [ref=f1e108]: Espresso, caramel, steamed milk; sweet, creamy bliss
+            - paragraph [ref=f1e109]: Regular ₹160 · Large ₹180
+          - article [ref=f1e110]:
+            - generic [ref=f1e111]:
+              - heading "Tangerine Latte" [level=4] [ref=f1e112]
+              - paragraph [ref=f1e113]: Espresso, tangerine, steamed milk; refreshingly citrusy and unique
+            - paragraph [ref=f1e114]: Regular ₹160 · Large ₹180
+          - article [ref=f1e115]:
+            - generic [ref=f1e116]:
+              - heading "Irish Latte" [level=4] [ref=f1e117]
+              - paragraph [ref=f1e118]: Espresso, whiskey-flavoured, cream; a coffee delight
+            - paragraph [ref=f1e119]: Regular ₹160 · Large ₹180
+          - article [ref=f1e120]:
+            - generic [ref=f1e121]:
+              - heading "French Vanilla Latte" [level=4] [ref=f1e122]
+              - paragraph [ref=f1e123]: Espresso, French vanilla, steamed milk; elegantly sweet
+            - paragraph [ref=f1e124]: Regular ₹160 · Large ₹180
+          - article [ref=f1e125]:
+            - generic [ref=f1e126]:
+              - heading "Mocha" [level=4] [ref=f1e127]
+              - paragraph [ref=f1e128]: Espresso with chocolate, steamed milk; a decadent, rich duo
+            - paragraph [ref=f1e129]: Regular ₹200 · Large ₹240
+    - region [ref=f1e130]:
+      - generic [ref=f1e131]:
+        - paragraph [ref=f1e132]: Our story
+        - heading "Made for the spaces between." [level=2] [ref=f1e133]
+        - paragraph [ref=f1e134]: "Koa began with a simple belief: the everyday cup can still feel remarkable."
+        - paragraph [ref=f1e135]: We work with independent roasters, nearby growers, and small producers who care deeply about their craft. Our menu shifts with the seasons, but our approach stays the same—warm service, honest food, and no need to hurry.
+        - link "Come spend a while" [ref=f1e136] [cursor=pointer]:
+          - /url: "#visit"
+      - generic [ref=f1e139]:
+        - figure [ref=f1e140]:
+          - img "A sunlit window nook at Koa Café with green armchairs and planted shelves" [ref=f1e141]
+        - figure [ref=f1e142]:
+          - img "Koa Café's teal lounge seating and illustrated coffee wall" [ref=f1e143]
+    - region [ref=f1e144]:
+      - generic [ref=f1e145]:
+        - paragraph [ref=f1e146]: Life at Koa
+        - heading "Stay for another." [level=2] [ref=f1e147]
+      - generic [ref=f1e148]:
+        - figure [ref=f1e149]:
+          - img "Colorful hanging chairs in Koa Café's bright social lounge" [ref=f1e150]
+        - figure [ref=f1e151]:
+          - img "Leather chairs and window counter seating at Koa Café" [ref=f1e152]
+        - figure [ref=f1e153]:
+          - img "Koa Café lounge with deep teal sofas, plants, and warm leather seating" [ref=f1e154]
+    - region [ref=f1e155]:
+      - generic [ref=f1e156]:
+        - paragraph [ref=f1e157]: Visit us
+        - heading "Meet you at Koa." [level=2] [ref=f1e158]
+        - paragraph [ref=f1e159]: A bright, easygoing place to meet, work, and stay awhile. Walk-ins are always welcome.
+      - generic [ref=f1e160]:
+        - generic [ref=f1e161]:
+          - paragraph [ref=f1e162]: Find us
+          - generic [ref=f1e163]: 304/307, Broadway Signature, Fun Park, Canal Ring Road, Bhayli, Vadodara
+          - link "Open in Maps" [ref=f1e164] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=304%2F307%2C+Broadway+Signature%2C+Fun+Park%2C+Canal+Ring+Road%2C+Bhayli%2C+Vadodara
+        - generic [ref=f1e167]:
+          - paragraph [ref=f1e168]: Hours
+          - paragraph [ref=f1e169]: Opens at 9:15 am
+          - paragraph [ref=f1e170]: Customer ratings (out of 5)
+          - generic [ref=f1e171]:
+            - generic [ref=f1e172]:
+              - generic [ref=f1e173]: "4.3"
+              - generic [ref=f1e174]:
+                - generic [ref=f1e175]: Dining
+                - generic [ref=f1e176]: 413 ratings
+            - generic [ref=f1e177]:
+              - generic [ref=f1e178]: "4.1"
+              - generic [ref=f1e179]:
+                - generic [ref=f1e180]: Delivery
+                - generic [ref=f1e181]: 930 ratings
+          - paragraph [ref=f1e182]: ₹800 for two
+        - generic [ref=f1e183]:
+          - paragraph [ref=f1e184]: Call & explore
+          - link "+91 76000 06311" [ref=f1e185] [cursor=pointer]:
+            - /url: tel:+917600006311
+          - paragraph [ref=f1e186]: koacafe.in
+          - link "Zomato" [ref=f1e187] [cursor=pointer]:
+            - /url: https://www.zomato.com/it/vadodara/koa-cafe-1-bhayli
+          - paragraph [ref=f1e188]: Coffee, tea, shakes, drinks, fast food & dessert
+  - contentinfo [ref=f1e189]:
+    - generic [ref=f1e190]:
+      - generic [ref=f1e191]: K
+      - generic [ref=f1e192]: Koa Café
+    - navigation "Footer navigation" [ref=f1e193]:
+      - link "Home" [ref=f1e194] [cursor=pointer]:
+        - /url: "#home"
+      - link "Menu" [ref=f1e195] [cursor=pointer]:
+        - /url: "#menu"
+      - link "Story" [ref=f1e196] [cursor=pointer]:
+        - /url: "#story"
+      - link "Visit" [ref=f1e197] [cursor=pointer]:
+        - /url: "#visit"
+    - paragraph [ref=f1e198]: © 2025 Koa Café
